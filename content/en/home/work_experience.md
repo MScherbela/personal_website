@@ -1,5 +1,6 @@
 +++
 widget = "timeline"
+section_id = "work_experience"
 weight = 35  # Order that this section will appear.
 
 # Uncomment the following line and widget will NOT be displayed

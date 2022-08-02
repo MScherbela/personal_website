@@ -13,11 +13,20 @@ hero_media = "/img/portrait.jpg"
 # Add as much button as you want
 [[btn]]
 	# The url of the button
-  url = "#timeline"
+  url = "#education"
 	# The text of the button
   label = "My Background"
 	# Primary color
 	primary = true
+
+[[btn]]
+	# The url of the button
+  url = "#research"
+	# The text of the button
+  label = "My Research"
+	# Primary color
+	primary = true
+
 
 [[btn]]
   url = "#contact"

@@ -3,7 +3,7 @@ widget = "contact_form"
 title = "Contact me" 
 
 # Uncomment the following line and widget will NOT be displayed
-# hidden = true
+hidden = true
 
 # Uncomments the following line for
 # standard forms.
@@ -31,7 +31,7 @@ minlength = "3"
 # maxlength = "25"
 name = "name"
 # pattern matching
-pattern = "[a-zA-Z]+"
+pattern = "[a-zA-Z ]+"
 placeholder = "Name"
 # The input is required to submit the form
 required = true
