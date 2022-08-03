@@ -1,0 +1,70 @@
+<section id="research">
+	<div class="text-center w-full mb-8">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			{{ .Title }}
+		</h1>
+		{{ with .Params.subtitle}}
+		<h2 class="font-light mt-0">{{ . }}</h2>
+		{{ end }}
+	</div>
+	{{.Content}}
+	<div class="w-full flex flex-col mt-8">
+		<h2>Scientific papers</h2>
+		<table class="table-auto">
+			<thead class="text-left">
+			<tr>
+				<th><b class="pr-2">Year</b></th>
+				<th><b class="px-2">Title</b></th>
+				<th><b class="px-2">Authors</b></th>
+				<th><b class="px-2">Journal</b></th>
+			</tr>
+			</thead>
+			<tbody>
+			{{ range $index, $paper := .Params.paper}}
+				{{ $even := modBool $index 2 }}
+				{{ $trClass := "bg-gray-200" }}
+				{{ if $even }}
+				{{ $trClass = "bg-secondary-light" }}
+				{{ end }}
+
+				<tr class="{{$trClass}} dark:bg-secondary text-primary relative my-16">
+					<td class="py-2 pr-2 align-text-top">{{$paper.year}}</td>
+					<td class="py-2 px-2 align-text-top"><i>{{$paper.title}}</i></td>
+					<td class="py-2 px-2 align-text-top">{{$paper.authors}}</td>
+					<td class="py-2 px-2 align-text-top"><a href="{{$paper.link}}">{{$paper.link_title}}</a></td>
+				</tr>
+			{{end}}
+		</table>
+	</div>
+
+	<div class="w-full flex flex-col mt-8">
+		<h2>Presentations</h2>
+		<table class="table-auto">
+			<thead class="text-left">
+			<tr>
+				<th><b class="pr-2">Year</b></th>
+				<th><b class="px-2">Type</b></th>
+				<th><b class="px-2">Title</b></th>
+				<th><b class="px-2">Venue</b></th>
+				<th><b class="px-2">Link</b></th>
+			</tr>
+			</thead>
+			<tbody>
+			{{ range $index, $conference := .Params.conference}}
+				{{ $even := modBool $index 2 }}
+				{{ $trClass := "bg-gray-200" }}
+				{{ if $even }}
+				{{ $trClass = "bg-secondary-light" }}
+				{{ end }}
+
+				<tr class="{{$trClass}} dark:bg-secondary text-primary relative my-16">
+					<td class="py-2 pr-2 align-text-top">{{$conference.year}}</td>
+					<td class="py-2 px-2 align-text-top"><i>{{$conference.type}}</i></td>
+					<td class="py-2 px-2 align-text-top"><i>{{$conference.title}}</i></td>
+					<td class="py-2 px-2 align-text-top">{{$conference.venue}}</td>
+					<td class="py-2 px-2 align-text-top"><a href="{{$conference.link}}">{{$conference.link_title}}</a></td>
+				</tr>
+			{{end}}
+		</table>
+	</div>
+</section>
