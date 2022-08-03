@@ -29,7 +29,7 @@ hero_media = "/img/portrait.jpg"
 
 
 [[btn]]
-  url = "#contact"
+  url = "#socials"
   label = 'Contact me'
 
 +++

@@ -66,6 +66,20 @@ icon = "/icons/twitter.svg"
 name = "twitter"
 url = "https://twitter.com/MScherbela"
 
+[[params.social]]
+alt = "google scholar icon"
+blank = true
+icon = "/icons/graduation-cap.svg"
+name = "google scholar"
+url = "https://scholar.google.com/citations?user=gDd8Nc8AAAAJ&hl=en"
+
+[[params.social]]
+alt = "linkedin icon"
+blank = true
+icon = "/icons/linkedin.svg"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/michael-scherbela-431420153/"
+
 # [[params.social]]
 # alt = "facebook icon"
 # blank = true
@@ -76,11 +90,11 @@ url = "https://twitter.com/MScherbela"
 # Navigation bar
 [menu]
 
-[[menu.main]]
-identifier = "home" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/" 
-weight = 10 
+#[[menu.main]]
+#identifier = "home" # identifier is use for translations
+#pre = "" # pre is inserted before the translation (icons, image, etc)
+#url = "/"
+#weight = 10
 
 # [[menu.main]]
 # identifier = "blog" # identifier is use for translations
@@ -88,11 +102,11 @@ weight = 10
 # url = "/blog/"
 # weight = 20
 
-[[menu.main]]
-identifier = "contact" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/#contact" 
-weight = 30 
+#[[menu.main]]
+#identifier = "contact" # identifier is use for translations
+#pre = "" # pre is inserted before the translation (icons, image, etc)
+#url = "/#contact"
+#weight = 30
 
 # Syntax highlightning
 [markup.highlight]

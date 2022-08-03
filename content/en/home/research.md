@@ -50,9 +50,39 @@ link_title="Nano Letters"
 link="https://pubs.acs.org/doi/full/10.1021/acs.nanolett.7b01637"
 authors="Obersteiner, Scherbela, Hörmann, Wegner, Hofmann"
 
+[[conference]]
+year="2022"
+type="Invited Talk"
+title="High accuracy wavefunctions using deep-learning-based variational Monte Carlo"
+venue="IPAM, UC Los Angeles"
+link_title="Recording on youtube"
+link="https://www.youtube.com/watch?v=f9hF6iaKJzg"
 
+[[conference]]
+year="2022"
+type="Summer School Tutorial"
+title="Basics of Machine Learning"
+venue="Erwin Schrödinger Institute, Vienna"
+link_title="Material on GitHub"
+link="https://github.com/MScherbela/jax_tutorial"
 
+[[conference]]
+year="2021"
+type="Poster Presentation"
+title="Sharing is Caring: Accurate ab-initio wavefunctions through weight-sharing neural networks"
+venue="EPFL, Lausanne"
 
+[[conference]]
+year="2017"
+type="Talk"
+title="Structure Search using Machine Learning"
+venue="DPG Spring Meeting, Dresden"
+
+[[conference]]
+year="2017"
+type="Talk"
+title="Structure Search at Interfaces using Bayesian Regression"
+venue="IMPRESS Conference 2017, Helsinki"
 +++
 
 I work on the intersection of machine learning and quantum chemistry. A full and up to date list of my publications can be found on [Google Scholar](https://scholar.google.com/citations?user=gDd8Nc8AAAAJ&hl=en&oi=ao). 
