@@ -23,18 +23,18 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
 
 [[period]]
   title = "Graz University of Technology"
-  subtitle = "Bachelor: Physics"
+  subtitle = "Master: Physics"
   location = "Graz, Austria"
-  date_start = "2011-10-01"
+  date_start = "2014-12-01"
   date_end = "2017-06-01"
   description = "Studying physics with a focus on computational methods. Master thesis on using machine learning to predict surface structures of molecules adsorbing to metal surfaces. Graduated with distinction."
 
 [[period]]
   title = "Graz University of Technology"
-  subtitle = "Master: Physics"
+  subtitle = "Bachelor: Physics"
   location = "Graz, Austria"
-  date_start = "2014-12-01"
-  date_end = "2014-11-01"
+  date_start = "2011-10-01"
+  date_end = "2014-11-01"  
   description = "Studying physics and graduating with a bachelor thesis on using Matrix Product States to simulate quantum spin systems. Graduated with distinction."
 
 +++
