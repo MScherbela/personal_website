@@ -1,0 +1,20 @@
+<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden h-full">
+	<a href="{{ .project.url }}" class="no-underline h-full">
+		{{/* A span is used instead a div for accessibiliy, <a> tag can't wrap div elements */}}
+			<span class="block">
+				{{ with .project.banner }}
+				<div class="h-48 overflow-hidden bg-cover bg-center" style="background-image: url('{{ . | absURL }}');">
+				</div>
+				{{ end }}
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block">{{ .project.title | emojify }}</h2><br>
+					<h4 class="m-0 inline-block">{{ .project.subtitle | emojify }}</h4>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark">
+					<span class="text-sm">
+					{{.project.description}}
+						</span>
+				</div>
+			</span>
+		</a>
+</div>

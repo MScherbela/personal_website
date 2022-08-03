@@ -27,6 +27,13 @@ hero_media = "/img/portrait.webp"
 	# Primary color
 	primary = true
 
+[[btn]]
+	# The url of the button
+  url = "#projects"
+	# The text of the button
+  label = "Personal Projects"
+	# Primary color
+	primary = true
 
 [[btn]]
   url = "#socials"

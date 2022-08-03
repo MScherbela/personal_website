@@ -6,8 +6,9 @@
 		{{ with .Params.subtitle}}
 		<h2 class="font-light mt-0">{{ . }}</h2>
 		{{ end }}
+		{{.Content}}
 	</div>
-	{{.Content}}
+
 	<div class="w-full flex flex-col mt-8">
 		<h2>Scientific papers</h2>
 		<table class="table-auto">
