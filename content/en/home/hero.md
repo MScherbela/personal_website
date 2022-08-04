@@ -37,7 +37,8 @@ hero_media = "/img/portrait.webp"
 
 [[btn]]
   url = "#socials"
-  label = 'Contact me'
+  label = "Contact me"
+  primary = true
 
 +++
 

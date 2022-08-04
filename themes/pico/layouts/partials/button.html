@@ -3,7 +3,7 @@
 {{ $el = .el }}
 {{ end }}
 
-{{ $defaultClass := "px-4 py-2 mx-2 rounded-sm text-center"}}
+{{ $defaultClass := "px-2 py-2 mx-2 mb-2 w-32 h-16 rounded-sm inline-flex items-center justify-center"}}
 {{ $attrs := merge .attrs (dict "class" (printf "%s %s" $defaultClass .attrs.class)) }}
 
 {{ $btnAttrs := "" }}
@@ -12,5 +12,5 @@
 {{ end }}
 
 {{ safeHTML (printf "<%v %v>" $el $btnAttrs) }}
-  {{ .content }}
+{{ .content }}
 {{ safeHTML (printf "</%v>" $el) }}
