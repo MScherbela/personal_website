@@ -27,6 +27,13 @@ subtitle = "Austrian Young Physicists' Tournament"
 description = "Are you a high-school student in Austria and interested in physics? Join our annual competition, where you'll experience real research firsthand."
 banner = "img/aypt_landscape.webp"
 url = "https://aypt.at"
+
+[[project]]
+title = "Paragliding App"
+subtitle = "When is a good time to fly?"
+description = "I love hiking and flying with my paraglider, but finding stable weather conditions can be tricky. This simple app of mine, reminds me when nearby flying sites will have good flying conditions on the upcoming weekend."
+banner = "img/paragliding.webp"
+url = "paragliding.scherbela.com"
 +++
 
 I enjoy working on small side projects. Some of them are silly, but I've learned a lot from all of them. Here are a few which I particularly enjoy.
