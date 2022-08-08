@@ -32,6 +32,11 @@ module.exports = {
     extend: {
       maxWidth,
       maxHeight,
+      minWidth: {
+        '1/2': '50%',
+        '1/3': '33%',
+        '1/4': '25%'
+      },
       fontFamily: {
         serif: ['Spectral', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
         charter: ['charter', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif']
