@@ -1,5 +1,4 @@
 {{/* Google Analytics */}}
-{{ printf "%#v" $.Site.Params }}
 {{ with .Site.Params.google_analytics_id }}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
     <script>
