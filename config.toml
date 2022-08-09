@@ -11,13 +11,13 @@ theme = 'pico'
 # Title of the website is used for the meta tag title
 # and the square icon (not the favicon)
 title = 'Michael Scherbela'
-GoogleAnalyticsID = "G-QSKGZ8QZX6"
 
 [params]
 customCSS = [
 	"style/style.css",
 	"style/theme.sass",
 ] # Path relative to assets folder
+google_analytics_id = "G-QSKGZ8QZX6"
 customJS = ["js/console.js"] # Path relative to assets folder
 # Homepage description
 # For blog page description you can overwrite it 

@@ -1,11 +1,14 @@
 {{/* Google Analytics */}}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsID }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ .Site.Params.GoogleAnalyticsID }}');
-</script>
+{{ printf "%#v" $.Site.Params }}
+{{ with .Site.Params.google_analytics_id }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ . }}');
+    </script>
+{{ end }}
 
 {{ $js_bundle := slice }}
 {{ range site.Params.customJS }}
