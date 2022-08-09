@@ -71,6 +71,8 @@ year="2021"
 type="Poster Presentation"
 title="Sharing is Caring: Accurate ab-initio wavefunctions through weight-sharing neural networks"
 venue="EPFL, Lausanne"
+link_title="Corresponding paper"
+link="https://www.nature.com/articles/s43588-022-00228-x"
 
 [[conference]]
 year="2017"

@@ -109,7 +109,7 @@ module.exports = {
     }
   },
   variants: {
-    backgroundColor: ['hover', 'active', 'dark'],
+    backgroundColor: ['hover', 'active', 'dark', 'odd', 'even'],
     fontWeight: ['hover', 'focus'],
     scale: ['hover', 'active'],
     border: ['focus'],
