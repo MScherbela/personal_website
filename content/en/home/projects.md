@@ -41,6 +41,13 @@ subtitle = "Is the local supercomputer available?"
 description = "Research often needs access to large supercomputers, but it can be hard to see where there are free compute resources. This website shows me, which partitions of the local supercomputer are currently free."
 banner = "img/vsc_monitor.webp"
 url = "https://vsc.scherbela.com"
+
+[[project]]
+title = "Deep Learning seminar"
+subtitle = "Cutting edge research, presented weekly"
+description = "Orgainized a weekly seminar dedicated to current research on deep learning"
+banner = "img/vsc_monitor.webp"
+url = "https://dl-seminar.scherbela.com"
 +++
 
 I enjoy working on small side projects. Some of them are silly, but I've learned a lot from all of them. Here are a few which I particularly enjoy.
