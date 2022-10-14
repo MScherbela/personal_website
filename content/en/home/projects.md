@@ -45,8 +45,8 @@ url = "https://vsc.scherbela.com"
 [[project]]
 title = "Deep Learning seminar"
 subtitle = "Cutting edge research, presented weekly"
-description = "Orgainized a weekly seminar dedicated to current research on deep learning"
-banner = "img/vsc_monitor.webp"
+description = "Organized a weekly seminar dedicated to current research on deep learning"
+banner = "img/neural_net.webp"
 url = "https://dl-seminar.scherbela.com"
 +++
 
