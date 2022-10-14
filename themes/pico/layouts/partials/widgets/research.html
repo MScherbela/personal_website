@@ -24,7 +24,7 @@
 			{{ range $index, $paper := .Params.paper}}
 				<tr class="odd:bg-secondary-light even:bg-secondary text-primary relative my-16">
 					<td class="py-2 px-2 align-text-top">{{$paper.year}}</td>
-					<td class="py-2 px-2 align-text-top"><i>{{$paper.title}}</i></td>
+					<td class="py-2 px-2 align-text-top">{{$paper.title}}</td>
 					<td class="py-2 px-2 align-text-top">{{ replace $paper.authors "Scherbela" "<span class='underline'>Scherbela</span>" | safeHTML }}</td>
 					<td class="py-2 px-2 align-text-top"><a href="{{$paper.link}}">{{$paper.link_title}}</a></td>
 				</tr>
@@ -49,9 +49,11 @@
 				<tr class="odd:bg-secondary-light even:bg-secondary text-primary relative my-16">
 					<td class="py-2 px-2 align-text-top">{{$conference.year}}</td>
 					<td class="py-2 px-2 align-text-top">{{$conference.type}}</td>
-					<td class="py-2 px-2 align-text-top"><i>{{$conference.title}}</i></td>
+					<td class="py-2 px-2 align-text-top">{{$conference.title}}</td>
 					<td class="py-2 px-2 align-text-top">{{$conference.venue}}</td>
-					<td class="py-2 px-2 align-text-top"><a href="{{$conference.link}}">{{$conference.link_title}}</a></td>
+					<td class="py-2 px-2 align-text-top">
+						<a href="{{$conference.link}}">{{$conference.link_title}}</a>
+					</td>
 				</tr>
 			{{end}}
 		</table>
