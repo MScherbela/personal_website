@@ -9,6 +9,20 @@ weight = 45  # Order that this section will appear.
 title = "Research Highlights"
 
 [[paper]]
+year = "2023"
+title = "Variational Monte Carlo on a Budget - Fine-tuning pre-trained Neural Wavefunctions"
+authors = "Scherbela, Gerard, Grohs"
+link_title = "NeurIPS 2023"
+link = "https://arxiv.org/abs/2307.09337"
+
+[[paper]]
+year = "2023"
+title = "Towards a Transferable Fermionic Neural Wavefunction for Molecules"
+authors = "Scherbela, Gerard, Grohs"
+link_title = "Nature Communications"
+link = "https://arxiv.org/abs/2303.09949"
+
+[[paper]]
 year = "2022"
 title = "Solving the electronic Schrödinger equation for multiple nuclear geometries with weight-sharing deep neural networks"
 authors = "Scherbela, Reisenhofer, Gerard, Grohs, Marquetand"
@@ -19,7 +33,7 @@ link = "https://www.nature.com/articles/s43588-022-00228-x"
 year = "2022"
 title = "Gold-standard solutions to the Schrödinger equation using deep learning: How much physics do we need?"
 authors = "Gerard, Scherbela, Grohs, Marquetand"
-link_title = "arxiv"
+link_title = "NeurIPS 2022"
 link = "https://arxiv.org/abs/2205.09438"
 
 [[paper]]
