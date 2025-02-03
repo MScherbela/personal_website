@@ -9,6 +9,13 @@ weight = 45  # Order that this section will appear.
 title = "Research Highlights"
 
 [[paper]]
+year = "2024"
+title = "Transferable Neural Wavefunctions for Solids"
+authors = "Gerard, Scherbela, Sutterud, Foulkes, Grohs"
+link_title = "arxiv"
+link = "http://arxiv.org/abs/2405.07599"
+
+[[paper]]
 year = "2023"
 title = "Variational Monte Carlo on a Budget - Fine-tuning pre-trained Neural Wavefunctions"
 authors = "Scherbela, Gerard, Grohs"

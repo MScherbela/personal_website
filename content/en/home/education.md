@@ -18,8 +18,8 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   subtitle = "PhD: Mathematics / Machine Learning"
   location = "Vienna, Austria"
   date_start = "2020-10-01"
-  date_end = ""
-  description = "Using deep-learning to develop new ab-initio methods for quantum chemistry"
+  date_end = "2024-09-27"
+  description = "Using deep-learning to develop better ab-initio methods for quantum chemistry. This is my [thesis on Transferable Neural Network Wavefunctions](files/PhD_thesis_Scherbela.pdf)"
 
 [[period]]
   title = "Graz University of Technology"
