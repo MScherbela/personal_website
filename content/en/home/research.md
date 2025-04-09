@@ -9,6 +9,13 @@ weight = 45  # Order that this section will appear.
 title = "Research Highlights"
 
 [[paper]]
+year = "2025"
+title = "Accurate Ab-initio Neural-network Solutions to Large-Scale Electronic Structure Problems"
+authors = "Scherbela, Gao, Grohs, Günnemann"
+link_title = "arxiv"
+link = "https://arxiv.org/abs/2504.06087"
+
+[[paper]]
 year = "2024"
 title = "Transferable Neural Wavefunctions for Solids"
 authors = "Gerard, Scherbela, Sutterud, Foulkes, Grohs"
@@ -27,7 +34,7 @@ year = "2023"
 title = "Towards a Transferable Fermionic Neural Wavefunction for Molecules"
 authors = "Scherbela, Gerard, Grohs"
 link_title = "Nature Communications"
-link = "https://arxiv.org/abs/2303.09949"
+link = "https://doi.org/10.1038/s41467-023-44216-9"
 
 [[paper]]
 year = "2022"
